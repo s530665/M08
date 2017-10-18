@@ -1,0 +1,30 @@
+{
+  "name": "person",
+  "plural": "people",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "Venkata": {
+      "type": "string",
+      "required": true,
+      "default": "cricket"
+    },
+    "Nadipeneni": {
+      "type": "string",
+      "required": true,
+      "default": "ball"
+    },
+    "wicket": {
+      "type": "string",
+      "required": true,
+      "default": "catch"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

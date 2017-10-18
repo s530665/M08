@@ -1,0 +1,25 @@
+{
+  "name": "cricket",
+  "plural": "players",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "Sachin": {
+      "type": "string",
+      "required": true,
+      "default": "best"
+    },
+    "yuvaraj": {
+      "type": "string",
+      "required": true,
+      "default": "inspiring"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
